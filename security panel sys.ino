@@ -94,8 +94,8 @@ void setLocked(int locked){
             myservo.write(pos);              // tell servo to go to position in variable 'pos'
             delay(15);                       // waits 15ms for the servo to reach the position
         }
-          digitalWrite(redLED, LOW);
-          digitalWrite(greenLED, HIGH);
-        }
+        digitalWrite(redLED, LOW);
+        digitalWrite(greenLED, HIGH);
+    }
 }
 
